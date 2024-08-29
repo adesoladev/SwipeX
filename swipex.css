@@ -656,3 +656,103 @@ footer {
   color: #31b60c;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .hero h1 {
+    margin: 0;
+    width: 300px;
+    font-size: 30px;
+  }
+
+  .hero-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 90px 50px 0 50px;
+  }
+
+  .engagement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .engagement {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .engagement h2 {
+    width: 350px;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .engagement h2 {
+    margin-top: 0;
+  }
+
+  .engagement p {
+    width: 350px;
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .stats-card {
+    margin: 10px 10px;
+    max-width: 350px;
+    padding: 35px 20px;
+    border-radius: 10px;
+    border: 2px solid #cecccc;
+    background-color: #f5f0f0;
+  }
+
+  .transaction-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .transaction-container-section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .quick-transaction {
+    margin: 10px 10px;
+  }
+
+  .quick-transaction p {
+    width: 500px;
+  }
+
+  .quick-transaction-second-bg {
+    margin: 20px 30px;
+  }
+
+  .quick-transaction-second {
+    max-width: 400px;
+    margin: 0 70px;
+    padding: 50px 25px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid rgb(202, 200, 200);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -2rem;
+    top: 6rem;
+  }
+}
